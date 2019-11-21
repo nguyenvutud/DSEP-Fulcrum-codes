@@ -1,0 +1,8 @@
+#! /usr/bin/env python
+# encoding: utf-8
+
+bld.program(
+    features='cxx benchmark',
+    source=bld.path.ant_glob('**/*.cpp'),
+    target='sparse_tunable_fulcrum_throughput',
+    use=['kodo_fulcrum_includes', 'kodo_core_benchmark_includes', 'gauge'])
