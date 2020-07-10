@@ -12,6 +12,9 @@ and build kodo-fulcrum at here http://docs.steinwurf.com/kodo-fulcrum/master/ind
 4) add a command: bld.recurse('benchmark/throughput_fulcrum/') to the file wscript in step 1.
 5) rebuild the kodo-fulcrum in your pc. After building successfully the library, you can run the benchmark.
 
+please find more details of this paper as following link: 
+https://ieeexplore.ieee.org/abstract/document/9076065
+
 Some previous studies of Fulcrum codes can be found here:
 https://scholar.google.com/citations?user=glqhr-8AAAAJ&hl=en
 
